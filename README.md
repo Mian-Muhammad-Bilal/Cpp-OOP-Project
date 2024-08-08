@@ -11,12 +11,6 @@ This project is a C++ based Hostel Management System that allows for the managem
 - **Cancel Booking**: Provides the functionality to cancel a booking by removing a person's name from the room.
 - **Upgrade Booking**: Allows updating the name of a person in the booking.
 
-## Classes
-
-- **Node Class**: Represents each room in the hostel, including attributes such as room capacity (`num`), filled capacity (`fill`), occupant names (`name`), and pointers to the next and previous rooms (`next` and `prev`).
-
-- **Hostel Class**: Manages the hostel operations, including creating the rooms, displaying room status, booking rooms, canceling bookings, and upgrading bookings.
-
 ## Usage
 
 - **Create Rooms**: The `create` method initializes the hostel with predefined room capacities across three floors.
@@ -28,10 +22,14 @@ This project is a C++ based Hostel Management System that allows for the managem
 ## How to Run
 
 1. Clone the repository:
+
    ```git clone https://github.com/yourusername/HostelManagementSystem.git```
 2. Navigate to the project directory:
+
 ```cd HostelManagementSystem```
 3. Compile the program:
+
    ```g++ hostel_management.cpp -o hostel_management```
 4. Run the executable:
+
 ```./hostel_management```
