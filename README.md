@@ -22,14 +22,10 @@ This project is a C++ based Hostel Management System that allows for the managem
 ## How to Run
 
 1. Clone the repository:
-
    ```git clone https://github.com/yourusername/HostelManagementSystem.git```
 2. Navigate to the project directory:
-
 ```cd HostelManagementSystem```
 3. Compile the program:
-
    ```g++ hostel_management.cpp -o hostel_management```
 4. Run the executable:
-
 ```./hostel_management```
